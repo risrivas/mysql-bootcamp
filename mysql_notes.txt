@@ -1,9 +1,14 @@
-## Use TryIt editor in google chrome to run or test adhoc SQLs
+###########################
+# Section 1: Introduction
+###########################
+
+# Use TryIt editor in google chrome to run or test adhoc SQLs
 https://www.w3schools.com/sql/trysql.asp?filename=trysql_op_or
 
+- TryIt editor uses WebSQL which is not compatible with all browsers
 - table name or column name is case insensitive
 
-## some example SQL
+# some example SQL
 SELECT * FROM customers;
 SELECT * FROM orders;
 
@@ -14,3 +19,13 @@ SELECT customerName, COUNT(*) AS 'number of orders'
 FROM customers
 INNER JOIN orders ON orders.customerID = customers.customerID
 GROUP BY customers.customerID;
+
+
+#########################################################
+# Section 2: Getting Started - Overview and installation
+#########################################################
+- Database: collection of data
+
+- Database Management System: interface with Database and apply CRUD operations
+ex: PostgreSQL, MySQL, Oracle Database, SQLite
+
