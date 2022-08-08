@@ -25,7 +25,37 @@ GROUP BY customers.customerID;
 # Section 2: Getting Started - Overview and installation
 #########################################################
 - Database: collection of data
-
 - Database Management System: interface with Database and apply CRUD operations
 ex: PostgreSQL, MySQL, Oracle Database, SQLite
+
+- SQL is used for all the relational databases
+- Better to learn by using MySQL in cloud based IDE called GoormIDE and then install MySQL on PC
+password
+
+- commands to use in GoormIDE cli:
+mysql-ctl start
+mysql-ctl stop
+
+- best to use below command as it will stop any existing first and start a new
+mysql-ctl cli
+
+mysql> SHOW DATABASES;
+mysql> QUIT;
+
+- other commands
+SELECT 1 + 1;
+exit
+
+
+###########################################
+# Section 3: Creating Databases and Tables
+###########################################
+- from mysql cli, run following commands
+CREATE DATABASE hello_world_db;
+SHOW DATABASES;
+
+- drop a database
+DROP DATABASE hello_world_db;
+
+
 
